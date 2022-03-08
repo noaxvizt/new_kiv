@@ -1,5 +1,3 @@
-import requests
-import time
 
 #0-timelimiterror
 #1-invalid login
@@ -8,6 +6,7 @@ import time
 #4-ok
 
 COINS = 100
+
 
 def check_login_password(login, password):
     #get_reqeust
